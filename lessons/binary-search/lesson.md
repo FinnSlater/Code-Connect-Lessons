@@ -11,11 +11,7 @@ If the target is less than the midpoint, the search continues on the lower half;
 ## Tutorial
 
 Let’s walk through the binary search process step-by-step.  
-1. Start with the entire sorted array.  
-2. Compare the target value to the middle element.  
-3. If they match, return the middle index.  
-4. If the target is smaller, repeat the process on the left half; if larger, on the right half.  
-5. Continue until the target is found or the search interval is empty.
+Start with the entire sorted array -> Compare the target value to the middle element -> If they match, return the middle index -> If the target is smaller, repeat the process on the left half; if larger, on the right half -> Continue until the target is found or the search interval is empty
 
 Below is a diagram illustrating the binary search process:
 ![](./assets/binary_search.png)
