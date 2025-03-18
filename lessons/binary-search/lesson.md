@@ -15,3 +15,7 @@ Start with the entire sorted array -> Compare the target value to the middle ele
 
 Below is a diagram illustrating the binary search process:
 ![](./assets/binary_search.png)
+
+The time complexity of the binary search algorithm is O(log(n)); this is because the array is split in half each time. For an array of size n, the first iteration divides the array into n/2 sized subarrays, then n/4, n/8, ..., n/2^l.
+
+The binary search algorithm is amongst the most efficient search algorithms, but requires the array to be sorted - if it needs to be sorted this then introduces a large overhead of O(nlog(n)).
