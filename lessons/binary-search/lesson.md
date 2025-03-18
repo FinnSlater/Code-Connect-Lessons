@@ -2,9 +2,11 @@
 
 ## Introduction
 
+<Introduction>
 Binary search is an efficient algorithm for locating a target value within a **sorted array**.  
 It works by repeatedly dividing the search interval in half—if the value at the midpoint is equal to the target, the search is over.  
 If the target is less than the midpoint, the search continues on the lower half; if greater, on the upper half.
+</Introduction>
 
 ## Tutorial
 
